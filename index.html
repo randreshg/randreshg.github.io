@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rafael Herrera Guaitero | Compilers, Runtimes, Agentic AI</title>
+    <meta
+      name="description"
+      content="Ph.D. candidate building execution-contract systems for compilers, runtimes, and agentic AI."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&amp;family=Space+Grotesk:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero reveal">
+        <div class="eyebrow">Rafael Herrera Guaitero</div>
+        <div class="hero-grid">
+          <div>
+            <p class="kicker">Compilers / Runtimes / Agentic AI</p>
+            <h1>Making execution semantics explicit across heterogeneous and distributed systems.</h1>
+            <p class="lede">
+              I am a Ph.D. candidate in Electrical and Computer Engineering at the University of
+              Delaware building execution-contract systems that connect compiler analysis, runtime
+              scheduling, and typed agent orchestration.
+            </p>
+          </div>
+          <aside class="hero-card">
+            <div class="stat-label">Current focus</div>
+            <ul class="focus-list">
+              <li>LLVM / MLIR / OpenMP pipelines</li>
+              <li>Execution contracts over State, Dependency, and Effect</li>
+              <li>Agentic workflow IRs and runtimes</li>
+              <li>Local-first research infrastructure</li>
+            </ul>
+          </aside>
+        </div>
+        <div class="cta-row">
+          <a href="https://github.com/randreshg" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/randres-herrera/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://twitter.com/randres_hg" target="_blank" rel="noreferrer">X / Twitter</a>
+          <a href="mailto:rafaelhg@udel.edu">Email</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="band reveal">
+          <div class="section-heading">
+            <span>Research Direction</span>
+            <h2>Compilers, runtime systems, and AI infrastructure should speak the same semantic language.</h2>
+          </div>
+          <div class="section-copy two-column">
+            <p>
+              My research centers on execution contracts: explicit declarations of State,
+              Dependency, and Effect that make scheduling-relevant semantics compiler-visible. The
+              goal is to reduce the amount of distributed orchestration, asynchronous overlap, and
+              workflow coordination that developers must encode manually.
+            </p>
+            <p>
+              In practice, that means co-designing LLVM/MLIR compiler pipelines, OpenMP and
+              event-driven runtimes, and typed agentic workflow systems that improve latency,
+              utilization, correctness, and developer productivity across HPC and AI-native
+              workloads.
+            </p>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <div class="section-heading">
+            <span>Passions</span>
+            <h2>Most of my work clusters around four themes.</h2>
+          </div>
+          <div class="cards four-up">
+            <article class="card">
+              <h3>Compilers</h3>
+              <p>LLVM, MLIR, OpenMP lowering, optimization passes, IR design, and execution-model translation.</p>
+            </article>
+            <article class="card">
+              <h3>Agentic AI</h3>
+              <p>Typed orchestration, graph execution, tool integration, reliability, and workflow validation.</p>
+            </article>
+            <article class="card">
+              <h3>Runtimes</h3>
+              <p>Event-driven scheduling, task graphs, overlap extraction, distributed execution, and placement.</p>
+            </article>
+            <article class="card">
+              <h3>Research Tooling</h3>
+              <p>Experiment tracking, reproducibility, benchmarking, and local-first systems for technical teams.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <div class="section-heading">
+            <span>Featured Work</span>
+            <h2>Projects that reflect the direction of my current systems work.</h2>
+          </div>
+          <div class="cards project-grid">
+            <article class="card project-card accent-a">
+              <div class="project-meta">Rust / Compiler + Runtime</div>
+              <h3><a href="https://github.com/randreshg/apxm" target="_blank" rel="noreferrer">APXM</a></h3>
+              <p>
+                A parallel execution model for agentic AI with graph IR, compiler passes, scheduler,
+                runtime services, and LLM/tool backends.
+              </p>
+            </article>
+            <article class="card project-card accent-b">
+              <div class="project-meta">Rust / Framework</div>
+              <h3><a href="https://github.com/randreshg/agentmate" target="_blank" rel="noreferrer">AgentMate</a></h3>
+              <p>
+                A framework for building AI agents and CLI applications with tools, streaming,
+                memory, and APXM-backed execution.
+              </p>
+            </article>
+            <article class="card project-card accent-c">
+              <div class="project-meta">Python / Research Infra</div>
+              <h3><a href="https://github.com/randreshg/tully" target="_blank" rel="noreferrer">Tully</a></h3>
+              <p>
+                A local-first, domain-neutral experiment tracking and research context system for
+                reproducible workflows and agent-friendly access.
+              </p>
+            </article>
+            <article class="card project-card accent-d">
+              <div class="project-meta">Benchmarks / Performance</div>
+              <h3><a href="https://github.com/randreshg/carts-benchmarks" target="_blank" rel="noreferrer">CARTS Benchmarks</a></h3>
+              <p>
+                Benchmarks and harnesses for contract extraction and event-driven execution
+                experiments in distributed and heterogeneous systems.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <div class="section-heading">
+            <span>Selected Impact</span>
+            <h2>Representative outcomes from the research track.</h2>
+          </div>
+          <div class="metrics">
+            <article class="metric">
+              <div class="metric-value">1.42x</div>
+              <p>Geometric-mean speedup across 26 benchmarks with CARTS, with up to 5.46x on AMD EPYC.</p>
+            </article>
+            <article class="metric">
+              <div class="metric-value">10.37x</div>
+              <p>Workflow-latency reduction achieved by A-PXM in controlled backend evaluations.</p>
+            </article>
+            <article class="metric">
+              <div class="metric-value">49x</div>
+              <p>Faster contract-error detection versus LangGraph under the A-PXM contract model.</p>
+            </article>
+            <article class="metric">
+              <div class="metric-value">5-34%</div>
+              <p>Speedups from automatic asynchronous execution of synchronously offloaded OpenMP regions.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <div class="section-heading">
+            <span>Experience</span>
+            <h2>Work across industry, national labs, and academic systems research.</h2>
+          </div>
+          <div class="timeline">
+            <article>
+              <div class="timeline-year">2026</div>
+              <div>
+                <h3>AMD Research and Advanced Development</h3>
+                <p>Compiler/runtime co-design for heterogeneous execution and emerging AI/HPC workloads.</p>
+              </div>
+            </article>
+            <article>
+              <div class="timeline-year">2025</div>
+              <div>
+                <h3>Meta</h3>
+                <p>Contract-aware agentic orchestration and privacy-aware infrastructure workflows.</p>
+              </div>
+            </article>
+            <article>
+              <div class="timeline-year">2023-2024</div>
+              <div>
+                <h3>Argonne, PNNL, and BSC</h3>
+                <p>OpenMP task discovery, advanced-memory workflows, and target-offload optimization for heterogeneous systems.</p>
+              </div>
+            </article>
+            <article>
+              <div class="timeline-year">2021-now</div>
+              <div>
+                <h3>University of Delaware / CAPSL</h3>
+                <p>Compiler and runtime research, teaching, and execution-model experimentation.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <div class="section-heading">
+            <span>Selected Talks</span>
+            <h2>Recent presentations around execution contracts and event-driven compilation.</h2>
+          </div>
+          <div class="cards three-up">
+            <article class="card">
+              <div class="project-meta">CGO 2026</div>
+              <h3>Compiling Agentic AI Programs for Dataflow Execution with Explicit Contracts</h3>
+            </article>
+            <article class="card">
+              <div class="project-meta">CGO 2025</div>
+              <h3>CARTS: Enabling Event-Driven Task and Data Block Compilation for Distributed HPC</h3>
+            </article>
+            <article class="card">
+              <div class="project-meta">LLVM Developers' Meeting 2023</div>
+              <h3>Task-dependency graph discovery and compile-time optimizations of OpenMP tasks</h3>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer reveal">
+        <p>
+          Interested in compilers, runtimes, agentic systems, or research infrastructure?
+          <a href="mailto:rafaelhg@udel.edu">Reach out</a>.
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
