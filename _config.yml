@@ -1,0 +1,18 @@
+title: Rafael Herrera Guaitero
+description: >-
+  Ph.D. candidate building execution-contract systems for compilers, runtimes,
+  and agentic AI.
+theme: minima
+markdown: GFM
+url: https://randreshg.github.io
+baseurl: ""
+email: rafaelhg@udel.edu
+github_username: randreshg
+twitter_username: randres_hg
+header_pages:
+  - projects.md
+  - research.md
+  - experience.md
+  - contact.md
+plugins:
+  - jekyll-feed
