@@ -1,0 +1,150 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Rafael Herrera Guaitero
+  given: Rafael
+  family: Herrera Guaitero
+  alternate: ''
+  pronunciation: ''
+postnominals: []
+status:
+  icon: ""
+role: Ph.D. Candidate in Electrical and Computer Engineering
+bio: |
+  I design execution-contract systems that make State, Dependency, and Effect
+  compiler-visible across compilers, runtime systems, and agentic AI workflows.
+  My work spans LLVM and MLIR pipelines, OpenMP and event-driven runtimes, and
+  typed orchestration systems for heterogeneous and distributed execution.
+
+affiliations:
+  - name: University of Delaware
+    url: https://www.udel.edu/
+  - name: CAPSL Research Group
+    url: https://www.eecis.udel.edu/~cavazos/capsl/
+
+links:
+  - icon: at-symbol
+    url: mailto:rafaelhg@udel.edu
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/randreshg
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/randres-herrera/
+  - icon: brands/x
+    url: https://x.com/randres_hg
+
+interests:
+  - Execution contracts over State, Dependency, and Effect
+  - LLVM and MLIR compiler pipelines
+  - Runtime systems for heterogeneous and distributed execution
+  - Agentic AI orchestration and workflow runtimes
+  - Reproducible systems research infrastructure
+
+education:
+  - degree: PhD Electrical and Computer Engineering
+    institution: University of Delaware
+    start: 2021-08-01
+    end: 2026-12-31
+    summary: |
+      Dissertation: Making Execution Semantics Explicit: Automating Distribution and Orchestration Through Execution Contracts.
+    button:
+      text: Download CV
+      url: /uploads/resume_phd.pdf
+      icon: hero/arrow-down-tray
+  - degree: Bachelor of Engineering
+    institution: Pontificia Universidad Javeriana
+    start: 2015-01-01
+    end: 2020-12-31
+    summary: |
+      Thesis: Synthesis of a scene using ray tracing in FPGA.
+
+experience:
+  - role: Research Associate - PhD
+    org: AMD Research and Advanced Development
+    start: 2026-01-01
+    summary: |
+      Exploring compiler and runtime co-design for heterogeneous execution, with emphasis on task and memory placement for emerging AI and HPC workloads.
+  - role: PhD Software Engineer Intern
+    org: Meta
+    start: 2025-06-01
+    end: 2025-08-31
+    summary: |
+      Built contract-aware agentic orchestration and privacy-aware data pipelines for internal infrastructure workflows.
+  - role: PhD Intern
+    org: Pacific Northwest National Laboratory
+    start: 2024-05-01
+    end: 2024-08-31
+    summary: |
+      Developed compiler and runtime prototype workflows for advanced memory platforms in AI-science workloads.
+  - role: PhD Intern
+    org: Barcelona Supercomputing Center
+    start: 2024-01-01
+    end: 2024-05-31
+    summary: |
+      Implemented OpenMP target-offload optimizations for distributed processing units in heterogeneous execution pipelines.
+  - role: PhD Intern
+    org: Pacific Northwest National Laboratory
+    start: 2023-09-01
+    end: 2023-12-31
+    summary: |
+      Built memory-placement analysis tooling and benchmark workflows for AI-science applications on advanced memory platforms.
+  - role: PhD Intern
+    org: Argonne National Laboratory
+    start: 2023-06-01
+    end: 2023-08-31
+    summary: |
+      Developed OpenMP task-dependency graph discovery analyses and compile-time optimizations for exascale systems.
+  - role: PhD Intern
+    org: Argonne National Laboratory
+    start: 2022-06-01
+    end: 2022-08-31
+    summary: |
+      Implemented automatic asynchronous execution optimizations for OpenMP target offloading in LLVM and OpenMP runtime workflows.
+  - role: Research Assistant and Teaching Assistant
+    org: University of Delaware
+    start: 2021-08-01
+    summary: |
+      Conducted compiler and runtime systems research in CAPSL and supported systems and security courses through labs, office hours, and grading.
+
+skills:
+  - name: Compilers and Systems
+    items:
+      - label: LLVM
+        level: 5
+      - label: MLIR
+        level: 5
+      - label: OpenMP
+        level: 5
+      - label: Runtime Systems
+        level: 4
+  - name: Agentic and Research Infrastructure
+    items:
+      - label: Agentic AI Systems
+        level: 5
+      - label: Workflow IR Design
+        level: 4
+      - label: Experiment Tracking
+        level: 4
+      - label: Performance Analysis
+        level: 4
+
+languages:
+  - name: English
+    level: 4
+    label: Professional
+  - name: Spanish
+    level: 5
+    label: Native
+
+awards:
+  - title: Jose Gabriel Maldonado Award
+    awarder: Pontificia Universidad Javeriana
+    date: "2020-12-01"
+    summary: Recognition for academic excellence, service, and leadership.
+    icon: hero/trophy
+  - title: Outstanding Undergraduate Thesis
+    awarder: Pontificia Universidad Javeriana
+    date: "2020-12-01"
+    summary: Awarded for FPGA-based ray tracing thesis work.
+    icon: hero/academic-cap
