@@ -18,7 +18,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
 
-minimal_mistakes_skin: mint
+minimal_mistakes_skin: air
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
