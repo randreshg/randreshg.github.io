@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Experience
 permalink: /experience/
+classes: wide
+author_profile: true
 ---
 
 # Experience
@@ -29,3 +30,9 @@ OpenMP target-offload optimizations for distributed processing units and heterog
 ## University of Delaware / CAPSL
 
 Compiler and runtime systems research, teaching, and execution-model experimentation in heterogeneous and distributed systems.
+
+## Teaching and Leadership
+
+- Teaching Assistant across systems, networking, and security courses at the University of Delaware
+- President of HLGSA and SACNAS initiatives at the University of Delaware
+- Organizer and publicity contributor for LLVM, IPDRM, ICPP, and broader HPC community activities

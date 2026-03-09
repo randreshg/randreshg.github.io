@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Projects
 permalink: /projects/
+classes: wide
 ---
 
 # Projects
@@ -27,3 +27,7 @@ permalink: /projects/
 - [RayTracer_Javeriana](https://github.com/randreshg/RayTracer_Javeriana)
 - [DARTS](https://github.com/randreshg/DARTS)
 - [ARTS](https://github.com/randreshg/ARTS)
+
+## What Connects These Repositories
+
+Across these projects, the common thread is explicit execution structure. I tend to build systems where the scheduling model, dependency model, and runtime behavior are visible enough to analyze, validate, and improve systematically.

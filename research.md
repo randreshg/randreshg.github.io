@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Research
 permalink: /research/
+classes: wide
 ---
 
 # Research
@@ -38,3 +38,10 @@ Benchmarking, experiment tracking, validation, and local-first infrastructure fo
 - CGO 2026: Compiling Agentic AI Programs for Dataflow Execution with Explicit Contracts
 - CGO 2025: CARTS: Enabling Event-Driven Task and Data Block Compilation for Distributed HPC
 - LLVM Developers' Meeting 2023: Task-dependency graph discovery and compile-time optimizations of OpenMP tasks
+
+## Current Interests
+
+- Execution contracts over State, Dependency, and Effect
+- MLIR and LLVM pipelines for heterogeneous and distributed execution
+- Runtime systems that make overlap and orchestration explicit
+- Typed workflow IRs for agentic AI
